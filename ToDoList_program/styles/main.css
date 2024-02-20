@@ -1,0 +1,72 @@
+/* Set default font for the document */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container style for centered alignment */
+.container {
+  max-width: 600px; 
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+/* Style for headings */
+h1 {
+  text-align: center; 
+}
+
+/* Style for form spacing */
+form {
+  margin-bottom: 20px; 
+}
+
+/* Style for text input fields */
+input[type="text"] {
+  width: 70%; 
+  padding: 10px;
+  font-size: 16px; 
+  border-radius: 7px; 
+}
+
+/* General button styling */
+button {
+  padding: 10px;
+  font-size: 16px; 
+  border-radius: 7px; 
+  background-color: lightblue; 
+}
+
+/* Specific style for the add task button */
+button#add-task {
+  margin-left: 10px; /* Space to the left of the add task button */
+}
+
+/* Style for remove completed tasks button */
+button#remove-completed-btn {
+  background-color: rgb(249, 159, 159); /* Specific background color */
+}
+
+
+/* Style for the task list */
+ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+/* Style for list items */
+li {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 10px; /* Space below each list item */
+}
+
+/* Style for completed tasks */
+li.completed {
+  text-decoration: line-through; /* Strike-through for completed tasks */
+  color: gray; /* Gray color for completed tasks */
+}
+
+/* Style for checkboxes in list items */
+li input[type="checkbox"] {
+  margin-right: 10px; /* Space to the right of the checkbox */
+}
